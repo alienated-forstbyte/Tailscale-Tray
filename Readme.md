@@ -74,15 +74,15 @@ Exit Node →
     Node A
     Node B
 
-Check service status
-systemctl --user status tailscale-tray.service
-View logs
-journalctl --user -u tailscale-tray.service -f
-Run manually
-~/.local/bin/tailscale-tray
+Check service status \
+systemctl --user status tailscale-tray.service \
+View logs \
+journalctl --user -u tailscale-tray.service -f \
+Run manually \
+~/.local/bin/tailscale-tray 
 
-🧩 Design Notes
-Built with GTK3 + AppIndicator
-Uses RadioMenuItem for exit node selection
-Uses tailscale CLI via subprocess
-Designed to be lightweight and minimal
+#### 🧩 Design Notes 
+Built with GTK3 + AppIndicator \
+Uses RadioMenuItem for exit node selection \
+Uses tailscale CLI via subprocess \
+Designed to be lightweight and minimal 
